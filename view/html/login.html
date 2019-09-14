@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - PeceAcuario</title>
+    <link rel="stylesheet" type="text/css" href="/view/css/style.css">
+</head>
+<body>
+    <header id="cabecera">
+        <h1><span class="resaltar">P</span>ece<span class="resaltar">A</span>cuario</h1>
+        <div id="topRight">
+            <a href="/?accion=login">Mi cuenta</a><br/>
+            <a href="">Carrito</a>
+        </div>
+    </header>
+
+    <section id="barra">
+        <nav>
+            <ul>
+                <li><a href="/?accion=default">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <section>
+        <div id="items">
+            <div class="contenedor">
+                <span>Entra con tu cuenta</span>
+                <form class="cuenta" action="" method="GET">
+                    <br/>Email<br/>
+                    <input type="email" name="mail" placeholder="pedrito123@mimail.com" required><br/><br/>
+                    Contraseña<br/>
+                    <input type="password" name="pass" required><br/><br/>
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+            <div class="contenedor">
+                <span>Regístrate</span>
+                <form class="cuenta" action="">
+                    <br/>Nombre<br/>
+                    <input type="text" name="name" required><br/><br/>
+                    Email<br/>
+                    <input type="email" name="mail" required><br/><br/>
+                    Contraseña<br/>
+                    <input type="password" name="pass" required><br/><br/>
+                    Dirección<br/>
+                    <input type="text" name="dir" required><br/><br/>
+                    Población<br/>
+                    <input type="text" name="city" required><br/><br/>
+                    Código Postal<br/>
+                    <input type="text" name="cp" required><br/><br/>
+                    <input type="submit" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="boxes">
+            <div class="footerBox">
+                <span>Métodos de Pago</span>
+                <ul>
+                    <li><img src="/view/img/paypal.png" width="100px" alt=""></li>
+                    <li><img src="/view/img/visa.png" width="100px" alt=""></li>
+                </ul>
+            </div>
+            <div class="footerBox">
+                <span>Contáctanos</span>
+                <ul>
+                    <li>Whatsapp: +34 655 67 65 65</li>
+                    <li>Mail: contact@peceacuario.com</li>
+                    <li>Twitter: @PeceAcuario</li>
+                </ul>
+            </div>
+        </div>
+        <span>&copy; José Antonio Cegarra & Juan Manuel Vallecillos</span>
+    </footer>
+</body>
+</html>
